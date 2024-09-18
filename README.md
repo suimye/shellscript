@@ -2,8 +2,9 @@
 
 ## 
 
-### kill_touchbar.sh
-Mac の TouchBar に関連するプロセス `TouchBarServer` を終了させ、ESCキーの再表示を促すためのもの。
+
+### bz2Alldecom.sh
+フォルダー内のbz2を解凍する。
 
 ### 使用方法
 
@@ -13,11 +14,19 @@ Mac の TouchBar に関連するプロセス `TouchBarServer` を終了させ、
    ./bz2Alldecom.sh
 
 
+
+
+### tourch.bar.restart.sh
+Mac の TouchBar に関連するプロセス `TouchBarServer` を終了させ、ESCキーの再表示を促す。
+
+### 使用方法
+
+
 - `kill_touchbar.sh`
 
    ```bash
-   chmod +x kill_touchbar.sh
-   ./kill_touchbar.sh
+   chmod +x tourch.bar.restart.sh
+   ./tourch.bar.restart.sh
 
 
 
